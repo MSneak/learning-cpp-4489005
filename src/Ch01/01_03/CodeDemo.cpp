@@ -6,8 +6,8 @@
 #include <string>
 
 int main(){
-    std::string str;
-    std::cout << "Hi whats your name " << std::flush; 
+    std::cout << "Hi whats your name " << std::flush;
+    std::string str; 
     std::cin >> str;
     std::cout << "glad to meet you, " << str << "!" << std::endl;
 
